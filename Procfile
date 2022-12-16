@@ -1,1 +1,1 @@
-web: /go-server-web
+web: gunicorn 'todo_app.wsgi'
