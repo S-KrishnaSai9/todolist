@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+builder = "NIXPACKS"
+startCommand = "/go-server-web"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
 
 # Application definition
 
